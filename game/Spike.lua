@@ -12,7 +12,7 @@ function Spike:update(dt)
 end
 
 function Spike:render()
-    for x = 0, self.ending - 16, 16 do
+    for x = 0, self.ending - 16, 16 dhon
         love.graphics.draw(self.image,x,0)
     end
 end
